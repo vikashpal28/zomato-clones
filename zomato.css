@@ -1,0 +1,664 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 73px;
+    width: 1100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: first center;
+    color: white;
+    font-weight: 500;
+    margin-block-end: 40px;
+    margin-right: 300px;
+    font-family: sans-serif;
+
+}
+a{
+    font-weight: 200;
+    font-display: none;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    
+}
+.get{
+    font-size: 15px;
+    padding: 17px 0px;
+    margin-right: 650px;
+}
+.relation{
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 19px;
+    
+}
+.add{
+    padding: 8px;
+    margin-inline: 10px;
+    font-size: 19px;
+    
+}
+
+.log{
+    padding: 8px;
+    margin-inline: 10px;
+    font-size: 19px;
+    
+}
+.sign{
+    padding: 8px;
+    margin-inline: 10px;
+    font-size: 19px;
+}
+/*photos*/
+.photo{
+    height: 600px;
+    width: 100%;
+    background-image: url("/photo/back.avif");
+    background-size: cover;
+
+}
+.center{
+    height: 70px;
+    width: 335px;
+    background-image: url("z.avif");
+    background-size: cover;
+    position: relative;
+    top: 80px;
+    left: 700px;
+}
+.discover{
+    height: 50px;
+    width: 100%;
+    color: #FFFFFF;
+    position: relative;
+    top: 90px;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+/* search bar*/
+.second-nav{
+    height: 50px;
+    width: 930px;
+    position: relative;
+    top: 110px;
+    left: 460px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_location{
+    height: 20px;
+    width: 20x;
+    margin-inline-start: 15px;
+    
+}
+.menu{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: -200px;
+    color: gray;
+}
+.bar{
+    height: 20px;
+    width: 30px;
+    position: relative;
+    left: -290px;
+    top: 3px;
+    color: gray;
+}
+.search{
+    height: 20px;
+    width: 30px;
+    color:gray;
+    position: relative;
+    left: -400px;
+    top: 3px;
+}
+.input1{
+    height: 30px;
+    width: 300px;
+    position: relative;
+    left: -96px;
+    top: 3px;
+}
+.input2{
+    height: 30px;
+    width: 40px;
+    position: relative;
+    left: -500px;
+    top: 3px;
+}
+input{
+    outline: none;
+    height: 20px;
+    width: 300px;
+    border: none;
+}
+/*after zomato image part*/
+.after-img{
+    height: 350px;
+    width: 100%;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+;
+}
+.order{
+    height: 250px;
+    width: 352px;
+    border-radius: 8px;
+    position: relative;
+    right: -170px;
+    background-image: url("online.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: gray;
+}
+.dining{
+    height: 250px;
+    width: 352px;
+    border-radius: 8px;
+    background-image: url("dining.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: gray;
+}
+.clubs{
+    height: 250px;
+    width: 352px;
+    border-radius: 8px;
+    position: relative;
+    right: 170px;
+    background-image: url("clubs.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: gray;
+}
+
+.order1{
+    height: 90px;
+    width: 350px;
+    background-color:#FFFFFF;
+    position: relative;
+    top: 160px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid gray;
+}
+.dining1{
+    height: 90px;
+    width: 350px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 160px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid gray;
+}
+.clubs1{
+    height: 90px;
+    width: 350px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 160px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid gray;
+    
+}
+#or{
+    font-size: 20px;
+    color: #363636;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+#din{
+    font-size: 16px;
+    color: #4f4f4f;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    left: -467px;
+    font-size: 36px;
+    font-weight: normal;
+    color: #1f1f1f;
+}
+h6{
+    text-align: center;
+    position: relative;
+    left:-193px;
+    top: 8px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #363636;
+}
+#all_c{
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    left: 1230px;
+    color: #E03546;
+    top: -12px;
+}
+/*after collection part*/
+.best{
+    height: 400px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    color: #FFFFFF;
+}
+.insta{
+    height: 320px;
+    width: 267.5px;
+    background-image: url("insta.avif");
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    left: 271px;
+
+}
+.indo{
+    height: 320px;
+    width: 267.5px;
+    background-image: url("indo.avif");
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    left: 91px;
+}
+.legend{
+    height: 320px;
+    width: 267.5px;
+    background-image: url("legend.avif");
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    right: 91px;
+}
+.rooftop{
+    height: 320px;
+    width: 267.5px;
+    background-image: url("rooftop.avif");
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+    right: 271px;
+}
+#is{
+    position: relative;
+    top: 270px;
+    left: 15px;
+    font-size: 18px;
+}
+#in{
+    position: relative;
+    top: 275px;
+    left: 15px;
+}
+#d{
+    position: relative;
+    top: 270px;
+    left: 15px;
+    font-size: 18px;
+}
+#do{
+    position: relative;
+    top: 275px;
+    left: 15px;
+}
+#l{
+    position: relative;
+    top: 270px;
+    left: 15px;
+    font-size: 18px;
+}
+#le{
+    position: relative;
+    top: 275px;
+    left: 15px;
+}
+#r{
+    position: relative;
+    top: 270px;
+    left: 15px;
+    font-size: 18px;
+}
+#ro{
+    position: relative;
+    top: 275px;
+    left: 15px;
+}
+#popular{
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    position: relative;
+    left: 360px;
+    color: #363636;
+    font-weight: -400;
+}
+.b{
+    font-weight: -450;
+}
+.city{
+
+    height: 420px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    top: 25px;
+}
+.first{
+    height: 133px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.gomati{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 175px;
+    border: 2px solid #e6d7d7;
+}
+.hajratganj{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #e6d7d7;
+}
+.aliganj{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    right: 175px;
+    border: 2px solid #e6d7d7;
+}
+.second{
+    height: 133px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.indira{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 175px;
+    border: 2px solid #e6d7d7;
+}
+.alambagh{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #e6d7d7;
+    
+}
+.ashiana{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    right: 175px;
+    border: 2px solid #e6d7d7;
+}
+.third{
+    height: 133px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chowk{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 175px;
+    border: 2px solid #e6d7d7;
+}
+.aminabad{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #e6d7d7;
+}
+.see{
+    height: 80px;
+    width: 357px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    right: 175px;
+    border: 2px solid #e6d7d7;
+}
+/*text in div*/
+#go{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#haj{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#ali{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#ind{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#alam{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#ashi{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#chowk{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#amin{
+    font-size: 20px;
+    font-weight: 21;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+#se{
+    font-size: 18px;
+    font-weight: 21;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+/*share link div*/
+.app{
+    height: 480px;
+    background-color: #FFFBF7;
+    position: relative;
+    top: 50px;
+}
+.mobile{
+    height: 450px;
+    width: 410px;
+
+   background-image: url("mobile.avif");
+    background-size: cover;
+    position: relative;
+    left: 450px;
+    top: 20px;
+
+}
+#zom{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 200px;
+    bottom: 380px;
+}
+#download{
+    font-size: 25px;
+    color: #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 200px;
+    bottom: 340px;
+}
+.google{
+    height: 60px;
+    width: 190px;
+    background-image: url("google.webp");
+    background-size: cover;
+    position: relative;
+    left: 930px;
+    bottom: 300px;
+    border-radius: 10px;
+}
+.appstore{
+    height: 60px;
+    width: 190px;
+    background-image: url("appstore.webp");
+    background-size: cover;
+    position: relative;
+    left: 1180px;
+    bottom: 360px;
+    border-radius: 10px;
+}
+.last{
+    height: 150px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+#abo{
+    position: relative;
+    top: 100px;
+    left: -600px;
+}
+#verse{
+    position: relative;
+    top: 80px;
+    left: -200px;
+}
+#for{
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+#learn{
+    position: relative;
+    top: 40px;
+    left: 600px;
+}
+.zoom{
+    height: 28px;
+    width: 132px;
+    background-image: url("zm.avif");
+    background-size: cover;
+    position: relative;
+    left: 245px;
+}
+#end{
+    text-align: center;
+    color: #4f4f4f;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+}
