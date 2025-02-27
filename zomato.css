@@ -57,7 +57,7 @@ a{
 .photo{
     height: 600px;
     width: 100%;
-    background-image: url("/photo/back.avif");
+    background-image: url("back.avif");
     background-size: cover;
 
 }
